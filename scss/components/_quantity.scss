@@ -1,0 +1,30 @@
+.quantity {
+  max-width: 135px;
+  border: 1px solid $black;
+  border-radius: $border-xs;
+  padding: 16px 32px;
+
+  @include respond-to(sm) {
+    padding-block: 8px;
+  }
+
+  &__input {
+    width: 100%;
+    border: none;
+    -moz-appearance: textfield;
+    text-align: center;
+  }
+
+  &__btn {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    align-items: center;
+  }
+
+  &__add-to-cart {
+    @include respond-to(sm) {
+      flex-grow: 1;
+    }
+  }
+}

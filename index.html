@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASEA Product Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend:wght@100..900&display=swap"
+        rel="stylesheet">
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="content-grid header">
+        <div class="header__layout flex breakout">
+            <div class="header__right">
+                <a href="#" class="header__logo" aria-label="home">
+                    <img src="./assets/images/asea-logo.png" alt="Ases Logo">
+                </a>
+            </div>
+            <div class="header__left flex">
+                <div class="header__notification">
+                    <button aria-label="notifications">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.01565 17.75C7.5445 18.2168 8.23918 18.5 9.00001 18.5C9.76085 18.5 10.4555 18.2168 10.9844 17.75M13.5 8C13.5 6.80653 13.0259 5.66193 12.182 4.81802C11.3381 3.97411 10.1935 3.5 9.00001 3.5C7.80654 3.5 6.66195 3.97411 5.81803 4.81802C4.97412 5.66193 4.50001 6.80653 4.50001 8C4.50001 10.3176 3.91537 11.9045 3.26226 12.9541C2.71136 13.8394 2.43591 14.2821 2.44601 14.4056C2.45719 14.5423 2.48616 14.5944 2.59635 14.6762C2.69586 14.75 3.14446 14.75 4.04165 14.75H13.9584C14.8556 14.75 15.3042 14.75 15.4037 14.6762C15.5139 14.5944 15.5428 14.5423 15.554 14.4056C15.5641 14.2821 15.2887 13.8394 14.7378 12.9541C14.0847 11.9045 13.5 10.3176 13.5 8Z"
+                                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M14 11C16.7614 11 19 8.76142 19 6C19 3.23858 16.7614 1 14 1C11.2386 1 9 3.23858 9 6C9 8.76142 11.2386 11 14 11Z"
+                                fill="#E63E66" stroke="white" stroke-width="2" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="header__profile">
+                    <button aria-label="profile">
+                        <img src="./assets/images/avatar.png" alt="avatar">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Section -->
+
+    <main class="content-grid main-product">
+        <section class="product">
+            <div class="product__breadcrumb">
+                <nav class="breadcrumb">
+                    <ul class="flex">
+                        <li>
+                            <a href="#" class="ff-inter">All Products</a>
+                        </li>
+                        <li>
+                            <span aria-current="page" class="black-clr">Skincare</span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="product__info flex">
+                <div class="product__media flow">
+                    <div class="product__showcase">
+                        <img src="./assets/images/mani-moisture-hydrating-serum.png"
+                            alt="mani moisture hydrating serum">
+                    </div>
+                    <div class="product__thumbnail">
+                        <ul role="list" class="flex">
+                            <li><img src="./assets/images/product-thumb-1.png" alt="thumbnail 1"></li>
+                            <li><img src="./assets/images/product-thumb-2.png" alt="thumbnail 2"></li>
+                            <li><img src="./assets/images/product-thumb-3.png" alt="thumbnail 3"></li>
+                            <li><img src="./assets/images/product-thumb-4.png" alt="thumbnail 4"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product__details">
+                    <div class="product__header flow">
+                        <h1 class="fs-300 fw-medium black-clr">Mani Moisture Hydrating Serum</h1>
+                        <div class="flex product__rating">
+                            <div class="flex primary-clr">
+                                <span>
+                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.52761 1.42525C7.85643 0.570775 9.06536 0.570773 9.39418 1.42525L10.8598 5.23374C11.0014 5.60177 11.3461 5.85221 11.7399 5.87318L15.8148 6.09014C16.7291 6.13882 17.1027 7.28857 16.3916 7.86535L13.2224 10.4361C12.9162 10.6845 12.7845 11.0897 12.8863 11.4707L13.9392 15.4133C14.1754 16.2979 13.1974 17.0084 12.4291 16.5104L9.00484 14.2908C8.67393 14.0763 8.24786 14.0763 7.91695 14.2908L4.4927 16.5104C3.72444 17.0084 2.74639 16.2979 2.98262 15.4133L4.03551 11.4707C4.13726 11.0897 4.0056 10.6845 3.69934 10.4361L0.530141 7.86535C-0.180902 7.28858 0.192676 6.13882 1.10694 6.09014L5.18192 5.87318C5.57571 5.85221 5.9204 5.60177 6.06203 5.23374L7.52761 1.42525Z"
+                                            fill="currentColor" />
+                                    </svg>
+
+                                </span>
+                                <span>
+                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.52761 1.42525C7.85643 0.570775 9.06536 0.570773 9.39418 1.42525L10.8598 5.23374C11.0014 5.60177 11.3461 5.85221 11.7399 5.87318L15.8148 6.09014C16.7291 6.13882 17.1027 7.28857 16.3916 7.86535L13.2224 10.4361C12.9162 10.6845 12.7845 11.0897 12.8863 11.4707L13.9392 15.4133C14.1754 16.2979 13.1974 17.0084 12.4291 16.5104L9.00484 14.2908C8.67393 14.0763 8.24786 14.0763 7.91695 14.2908L4.4927 16.5104C3.72444 17.0084 2.74639 16.2979 2.98262 15.4133L4.03551 11.4707C4.13726 11.0897 4.0056 10.6845 3.69934 10.4361L0.530141 7.86535C-0.180902 7.28858 0.192676 6.13882 1.10694 6.09014L5.18192 5.87318C5.57571 5.85221 5.9204 5.60177 6.06203 5.23374L7.52761 1.42525Z"
+                                            fill="currentColor" />
+                                    </svg>
+
+                                </span>
+                                <span>
+                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.52761 1.42525C7.85643 0.570775 9.06536 0.570773 9.39418 1.42525L10.8598 5.23374C11.0014 5.60177 11.3461 5.85221 11.7399 5.87318L15.8148 6.09014C16.7291 6.13882 17.1027 7.28857 16.3916 7.86535L13.2224 10.4361C12.9162 10.6845 12.7845 11.0897 12.8863 11.4707L13.9392 15.4133C14.1754 16.2979 13.1974 17.0084 12.4291 16.5104L9.00484 14.2908C8.67393 14.0763 8.24786 14.0763 7.91695 14.2908L4.4927 16.5104C3.72444 17.0084 2.74639 16.2979 2.98262 15.4133L4.03551 11.4707C4.13726 11.0897 4.0056 10.6845 3.69934 10.4361L0.530141 7.86535C-0.180902 7.28858 0.192676 6.13882 1.10694 6.09014L5.18192 5.87318C5.57571 5.85221 5.9204 5.60177 6.06203 5.23374L7.52761 1.42525Z"
+                                            fill="currentColor" />
+                                    </svg>
+
+                                </span>
+                                <span>
+                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.52761 1.42525C7.85643 0.570775 9.06536 0.570773 9.39418 1.42525L10.8598 5.23374C11.0014 5.60177 11.3461 5.85221 11.7399 5.87318L15.8148 6.09014C16.7291 6.13882 17.1027 7.28857 16.3916 7.86535L13.2224 10.4361C12.9162 10.6845 12.7845 11.0897 12.8863 11.4707L13.9392 15.4133C14.1754 16.2979 13.1974 17.0084 12.4291 16.5104L9.00484 14.2908C8.67393 14.0763 8.24786 14.0763 7.91695 14.2908L4.4927 16.5104C3.72444 17.0084 2.74639 16.2979 2.98262 15.4133L4.03551 11.4707C4.13726 11.0897 4.0056 10.6845 3.69934 10.4361L0.530141 7.86535C-0.180902 7.28858 0.192676 6.13882 1.10694 6.09014L5.18192 5.87318C5.57571 5.85221 5.9204 5.60177 6.06203 5.23374L7.52761 1.42525Z"
+                                            fill="currentColor" />
+                                    </svg>
+
+                                </span>
+                                <span>
+                                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.60582 1.42525C8.93464 0.570775 10.1436 0.570773 10.4724 1.42525L11.938 5.23374C12.0796 5.60177 12.4243 5.85221 12.8181 5.87318L16.8931 6.09014C17.8073 6.13882 18.1809 7.28857 17.4699 7.86535L14.3007 10.4361C13.9944 10.6845 13.8627 11.0897 13.9645 11.4707L15.0174 15.4133C15.2536 16.2979 14.2756 17.0084 13.5073 16.5104L10.083 14.2908C9.75214 14.0763 9.32607 14.0763 8.99516 14.2908L5.57091 16.5104C4.80264 17.0084 3.8246 16.2979 4.06083 15.4133L5.11372 11.4707C5.21547 11.0897 5.08381 10.6845 4.77755 10.4361L1.60835 7.86535C0.897307 7.28858 1.27088 6.13882 2.18515 6.09014L6.26013 5.87318C6.65392 5.85221 6.99861 5.60177 7.14024 5.23374L8.60582 1.42525Z"
+                                            fill="url(#paint0_linear_210_3080)" stroke="currentColor"
+                                            stroke-width="0.5" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_210_3080" x1="8.5" y1="7" x2="9" y2="7"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="currentColor" />
+                                                <stop offset="1" stop-color="white" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                            </div>
+                            <div class="proudct__reviews">
+                                <span>4 Reviews</span>
+                            </div>
+                        </div>
+                        <p class="gray-500">Choose from our collection of wide range of products from moisturiser range
+                            for oily skin.
+                        </p>
+                    </div>
+                    <div class="product__subscription subscription">
+                        <div class="subscription__details flow">
+                            <div class="subscribe flow">
+                                <div class="flex subscribe__header">
+                                    <div class="subscribe__control">
+                                        <label class="radio-control"><input type="radio" name="radio"
+                                                value="yes" />Subscribe</label>
+                                    </div>
+                                    <div class="subscribe__price">
+                                        <del>$87</del>
+                                        <ins class="primary-clr">$60/mo</ins>
+                                    </div>
+                                </div>
+                                <div class="subscribe__benefits">
+                                    <ul class="flow">
+                                        <li><span>Subscribe and save $27</span></li>
+                                        <li><span>Earn Mani Reward Points</span></li>
+                                        <li><span>30-day money-back guarantee</span></li>
+                                        <li><span>Update your subscription anytime</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="subscribe">
+                                <div class="flex subscribe__header">
+                                    <div class="subscribe__control">
+                                        <label class="radio-control"><input type="radio" name="radio" value="yes"
+                                                checked />One-time purchase</label>
+                                    </div>
+                                    <div class="subscribe__price">
+                                        <span class="black-clr">$87</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__footer flex">
+                        <div class="quantity flex">
+                            <button class="quantity__btn flex" name="minus">
+                                <div class="sr-only">Decrease quantity</div>
+                                <svg width="11" height="1" viewBox="0 0 11 1" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="0.5" x2="11" y2="0.5" stroke="black" />
+                                </svg>
+                            </button>
+                            <input class="quantity__input" type="number" name="quantity" value="1">
+                            <button class="quantity__btn flex" name="minus">
+                                <div class="sr-only">Increase quantity</div>
+                                <svg width="11" height="12" viewBox="0 0 11 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="6" x2="11" y2="6" stroke="black" />
+                                    <line x1="5.5" y1="0.5" x2="5.5" y2="11.5" stroke="black" />
+                                </svg>
+                            </button>
+                        </div>
+                        <button class="quantity__add-to-cart btn">
+                            + Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

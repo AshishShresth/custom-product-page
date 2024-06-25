@@ -1,0 +1,83 @@
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.d-block {
+  display: block;
+}
+
+.flow > *:where(:not(:first-child)) {
+  margin-top: var(--flow-space, 1rem);
+}
+
+.primary-clr {
+  color: $primary-clr;
+}
+
+.secondary-clr {
+  color: $secondary-clr;
+}
+
+.white-clr {
+  color: $white;
+}
+
+.black-clr {
+  color: $black;
+}
+
+.gray-500 {
+  color: $gray-500;
+}
+
+.primary-bg {
+  background-color: $primary-clr;
+}
+
+.secondary-bg {
+  background-color: $secondary-clr;
+}
+
+.gray-bg {
+  background-color: $gray-200;
+}
+
+.border-gray-200 {
+  border: 1px solid $gray-200;
+}
+
+.ff-sans-serif {
+  font-family: $ff-sans-serif;
+}
+
+.ff-inter {
+  font-family: $ff-inter;
+}
+
+.fs-100 {
+  font-size: $fs-100;
+}
+
+.fs-200 {
+  font-size: $fs-200;
+}
+
+.fs-300 {
+  font-size: $fs-300;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

@@ -1,0 +1,54 @@
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+
+// Colors
+$primary-clr: #2079ff;
+$secondary-clr: #313d50;
+
+// grayscale
+$white: #ffffff;
+$gray-100: rgba(243, 248, 255, 1);
+$gray-200: rgba(248, 248, 248, 1);
+$gray-300: rgba(198, 198, 198, 1);
+$gray-400: rgba(151, 151, 151, 1);
+$gray-500: rgba(98, 98, 98, 1);
+$black: #000000;
+
+$border-clr: rgba(235, 235, 235, 1);
+// font family
+$ff-sans-serif: "Lexend", sans-serif;
+$ff-inter: "Inter", sans-serif;
+
+// font size
+$fs-base: unquote("clamp(14px, 0.792rem + 0.231vw, 16px)");
+$fs-100: unquote("clamp(14px, 0.625rem + 0.694vw, 20px)");
+$fs-200: unquote("clamp(16px, 0.667rem + 0.926vw, 24px)");
+$fs-300: unquote("clamp(24px, 1.167rem + 0.926vw, 32px)");
+
+// font weight
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-bold: 700;
+
+//spacing
+$space-xs: 12px;
+$space-sm: 16px;
+$space-md: 18px;
+$space-lg: 20px;
+
+//easing
+$easing: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+// border radius
+$border-lg: 40px;
+$border-md: 28px;
+$border-sm: 16px;
+$border-xs: 10px;
+
+// letter spacing
+$letter-spacing-lg: -0.05em;
+$letter-spacing-sm: -0.02em;

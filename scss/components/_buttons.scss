@@ -1,0 +1,18 @@
+.btn {
+  background-color: $primary-clr;
+  border-radius: $border-xs;
+  color: $white;
+  padding: 16px 28px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 250ms $easing;
+  font-weight: 500;
+
+  @include respond-to(sm) {
+    padding-block: 10px;
+  }
+
+  &:hover {
+    opacity: 0.85;
+  }
+}

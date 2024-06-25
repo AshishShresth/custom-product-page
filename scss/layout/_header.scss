@@ -1,0 +1,26 @@
+.header {
+  border-block-end: 1px solid $gray-300;
+  align-items: center;
+
+  &__layout {
+    justify-content: space-between;
+    padding-block: 28px;
+
+    @include respond-to(sm) {
+      padding-block: 26px;
+    }
+  }
+
+  &__right {
+    align-content: center;
+  }
+
+  &__left {
+    gap: 14px;
+    button {
+      border: none;
+      background: transparent;
+      cursor: pointer;
+    }
+  }
+}
